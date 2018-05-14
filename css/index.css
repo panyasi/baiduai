@@ -397,6 +397,199 @@ h2 {
   width: 100%;
   height: 100%;
 }
+.com-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.com-container .com-sub-title {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  font-size: 24px;
+  color: #222222;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.com-container .com-sub-title:after {
+  position: absolute;
+  top: 38px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: '';
+  width: 40px;
+  height: 2px;
+  background: #328cff;
+}
+.com-container .com-title-desc {
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: #999999;
+  margin-bottom: 50px;
+}
+.com-container .com-list-title {
+  height: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.com-container .list-card-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 42px;
+}
+.com-container .list-card-1 .card-item {
+  display: flex;
+}
+.com-container .list-card-1 .card-item .card-item-image {
+  width: 234px;
+  height: 128px;
+  margin-right: 16px;
+}
+.com-container .list-card-1 .card-item .card-item-image img {
+  width: 100%;
+  height: 100%;
+}
+.com-container .list-card-1 .card-item .card-item-content {
+  width: 230px;
+}
+.com-container .list-card-1 .card-item .card-item-content .content-title {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #333333;
+}
+.com-container .list-card-1 .card-item .card-item-content .content-desc {
+  line-height: 20px;
+  font-size: 12px;
+  color: #666666;
+  margin-bottom: 22px;
+}
+.com-container .list-card-1 .card-item .card-item-content .content-btn {
+  display: block;
+  width: 110px;
+  height: 36px;
+  border-radius: 4px;
+  background: #0073eb;
+  font-size: 14px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+.com-container .com-list-title {
+  height: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.com-container .list-card-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.com-container .list-card-2 .card-item {
+  width: 234px;
+  height: 270px;
+  background: #ffffff;
+  padding-bottom: 20px;
+}
+.com-container .list-card-2 .card-item .item-title {
+  width: 234px;
+  height: 128px;
+  background: url(../images/productbg1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  line-height: 128px;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.com-container .list-card-2 .card-item .item-desc {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.com-container .list-card-2 .card-item .item-btn {
+  display: block;
+  width: 194px;
+  height: 40px;
+  border: 1px solid #007eed;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+  color: #007eed;
+  margin: auto;
+}
+.com-container .list-card-2 .picture-item .item-title {
+  background: url(../images/productbg2.png) no-repeat;
+}
+.com-container .list-card-2 .poster-item .item-title {
+  background: url(../images/productbg3.png) no-repeat;
+}
+.com-container .list-card-2 .table-item .item-title {
+  background: url(../images/productbg4.png) no-repeat;
+}
+.com-container .com-list-title {
+  height: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.com-container .list-card-3 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.com-container .list-card-3 .card-item {
+  display: flex;
+  justify-content: space-between;
+  width: 490px;
+  height: 210px;
+  background: #ffffff;
+  padding: 20px;
+}
+.com-container .list-card-3 .card-item .card-item-content .content-task {
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.com-container .list-card-3 .card-item .card-item-content .content-desc {
+  line-height: 20px;
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 30px;
+}
+.com-container .list-card-3 .card-item .card-item-content .content-btn {
+  display: block;
+  width: 150px;
+  height: 40px;
+  background: #007eed;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: center;
+}
+.com-container .list-card-3 .card-item .card-item-image {
+  width: 166px;
+  height: 170px;
+}
+.com-container .list-card-3 .card-item .card-item-image img {
+  width: 100%;
+  height: 100%;
+}
 .pg-bd .join-section {
   background: #020309;
 }
@@ -418,12 +611,14 @@ h2 {
   display: inline-block;
   width: 84px;
   height: 30px;
-  background: #0073eb;
-  border-radius: 4px;
   text-align: center;
   line-height: 30px;
   font-size: 16px;
   color: #ffffff;
+}
+.pg-bd .join-section .container .btn .text-btn:hover {
+  background: #272727;
+  color: #0073eb;
 }
 .pg-bd .join-section .container .btn .facail-btn {
   display: inline-block;
@@ -434,21 +629,43 @@ h2 {
   font-size: 16px;
   color: #ffffff;
 }
+.pg-bd .join-section .container .btn .facail-btn:hover {
+  background: #272727;
+  color: #0073eb;
+}
 .pg-bd .join-section .container .btn .picture-btn {
   display: inline-block;
   width: 84px;
   height: 30px;
-  background: #272727;
   text-align: center;
   line-height: 30px;
   font-size: 16px;
+  color: #ffffff;
+}
+.pg-bd .join-section .container .btn .picture-btn:hover {
+  background: #272727;
   color: #0073eb;
 }
 .pg-bd .join-section .container .btn .joinus-btn {
   display: inline-block;
-  width: 74px;
+  width: 84px;
   height: 30px;
-  text-align: right;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  color: #ffffff;
+}
+.pg-bd .join-section .container .btn .joinus-btn:hover {
+  background: #272727;
+  color: #0073eb;
+}
+.pg-bd .join-section .container .btn .active {
+  display: inline-block;
+  width: 84px;
+  height: 30px;
+  border-radius: 4px;
+  background: #0073eb;
+  text-align: center;
   line-height: 30px;
   font-size: 16px;
   color: #ffffff;
@@ -537,564 +754,11 @@ h2 {
 .pg-bd .character-section {
   background: #f4f5f7;
 }
-.pg-bd .character-section .container .sub-title {
-  position: relative;
-  height: 30px;
-  line-height: 30px;
-  font-size: 24px;
-  color: #222222;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.pg-bd .character-section .container .sub-title:after {
-  position: absolute;
-  top: 38px;
-  left: 50%;
-  transform: translateX(-50%);
-  content: '';
-  width: 40px;
-  height: 2px;
-  background: #328cff;
-}
-.pg-bd .character-section .container .title-desc {
-  height: 20px;
-  line-height: 20px;
-  font-size: 14px;
-  text-align: center;
-  color: #999999;
-  margin-bottom: 50px;
-}
-.pg-bd .character-section .container .world-title {
-  height: 20px;
-  line-height: 20px;
-  font-size: 18px;
-  color: #222222;
-  margin-bottom: 20px;
-}
-.pg-bd .character-section .container .world-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 42px;
-}
-.pg-bd .character-section .container .world-list .world-item {
-  display: flex;
-}
-.pg-bd .character-section .container .world-list .world-item .image {
-  width: 234px;
-  height: 128px;
-  margin-right: 16px;
-}
-.pg-bd .character-section .container .world-list .world-item .image img {
-  width: 100%;
-  height: 100%;
-}
-.pg-bd .character-section .container .world-list .world-item .content {
-  width: 230px;
-}
-.pg-bd .character-section .container .world-list .world-item .content .content-title {
-  height: 30px;
-  line-height: 30px;
-  font-size: 14px;
-  color: #333333;
-}
-.pg-bd .character-section .container .world-list .world-item .content .desc {
-  line-height: 20px;
-  font-size: 12px;
-  color: #666666;
-  margin-bottom: 22px;
-}
-.pg-bd .character-section .container .world-list .world-item .content .watch-btn {
-  display: block;
-  width: 110px;
-  height: 36px;
-  border-radius: 4px;
-  background: #0073eb;
-  font-size: 14px;
-  line-height: 36px;
-  text-align: center;
-  color: #ffffff;
-}
-.pg-bd .character-section .container .learn-title {
-  height: 20px;
-  line-height: 20px;
-  font-size: 18px;
-  color: #222222;
-  margin-bottom: 20px;
-}
-.pg-bd .character-section .container .learn-list {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 40px;
-}
-.pg-bd .character-section .container .learn-list .learn-item {
-  width: 234px;
-  height: 270px;
-  background: #ffffff;
-  padding-bottom: 20px;
-}
-.pg-bd .character-section .container .learn-list .learn-item .item-title {
-  width: 234px;
-  height: 128px;
-  background: url(../images/productbg1.png) no-repeat;
-  background-size: cover;
-  background-position: center;
-  line-height: 128px;
-  font-size: 18px;
-  color: #ffffff;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.pg-bd .character-section .container .learn-list .learn-item .desc {
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 12px;
-  line-height: 18px;
-  color: #000000;
-  margin-bottom: 10px;
-}
-.pg-bd .character-section .container .learn-list .learn-item .check-btn {
-  display: block;
-  width: 194px;
-  height: 40px;
-  border: 1px solid #007eed;
-  border-radius: 4px;
-  font-size: 15px;
-  line-height: 40px;
-  text-align: center;
-  color: #007eed;
-  margin: auto;
-}
-.pg-bd .character-section .container .learn-list .picture-item .item-title {
-  background: url(../images/productbg2.png) no-repeat;
-}
-.pg-bd .character-section .container .learn-list .card-item .item-title {
-  background: url(../images/productbg3.png) no-repeat;
-}
-.pg-bd .character-section .container .learn-list .table-item .item-title {
-  background: url(../images/productbg4.png) no-repeat;
-}
-.pg-bd .character-section .container .challenge-title {
-  height: 20px;
-  line-height: 20px;
-  font-size: 18px;
-  color: #222222;
-  margin-bottom: 20px;
-}
-.pg-bd .character-section .container .challenge-list {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 60px;
-}
-.pg-bd .character-section .container .challenge-list .item {
-  display: flex;
-  justify-content: space-between;
-  width: 490px;
-  height: 210px;
-  background: #ffffff;
-  padding: 20px;
-}
-.pg-bd .character-section .container .challenge-list .item .content .task {
-  height: 20px;
-  line-height: 20px;
-  font-size: 14px;
-  color: #333333;
-  margin-bottom: 20px;
-}
-.pg-bd .character-section .container .challenge-list .item .content .desc {
-  line-height: 20px;
-  font-size: 14px;
-  color: #666666;
-  margin-bottom: 30px;
-}
-.pg-bd .character-section .container .challenge-list .item .content .learn-btn {
-  display: block;
-  width: 150px;
-  height: 40px;
-  background: #007eed;
-  border-radius: 4px;
-  font-size: 15px;
-  line-height: 40px;
-  color: #ffffff;
-  text-align: center;
-}
-.pg-bd .character-section .container .challenge-list .item .image {
-  width: 166px;
-  height: 170px;
-}
-.pg-bd .character-section .container .challenge-list .item .image img {
-  width: 100%;
-  height: 100%;
-}
 .pg-bd .facial-section {
   background: #f4f5f7;
 }
-.pg-bd .facial-section .container .sub-title {
-  position: relative;
-  height: 30px;
-  line-height: 30px;
-  font-size: 24px;
-  color: #222222;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.pg-bd .facial-section .container .sub-title:after {
-  position: absolute;
-  top: 38px;
-  left: 50%;
-  transform: translateX(-50%);
-  content: '';
-  width: 40px;
-  height: 2px;
-  background: #328cff;
-}
-.pg-bd .facial-section .container .title-desc {
-  height: 20px;
-  line-height: 20px;
-  font-size: 14px;
-  text-align: center;
-  color: #999999;
-  margin-bottom: 50px;
-}
-.pg-bd .facial-section .container .world-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 42px;
-}
-.pg-bd .facial-section .container .world-list .world-item {
-  display: flex;
-}
-.pg-bd .facial-section .container .world-list .world-item .image {
-  width: 234px;
-  height: 128px;
-  margin-right: 16px;
-}
-.pg-bd .facial-section .container .world-list .world-item .image img {
-  width: 100%;
-  height: 100%;
-}
-.pg-bd .facial-section .container .world-list .world-item .content {
-  width: 230px;
-}
-.pg-bd .facial-section .container .world-list .world-item .content .content-title {
-  height: 30px;
-  line-height: 30px;
-  font-size: 14px;
-  color: #333333;
-}
-.pg-bd .facial-section .container .world-list .world-item .content .desc {
-  line-height: 20px;
-  font-size: 12px;
-  color: #666666;
-  margin-bottom: 22px;
-}
-.pg-bd .facial-section .container .world-list .world-item .content .watch-btn {
-  display: block;
-  width: 110px;
-  height: 36px;
-  border-radius: 4px;
-  background: #0073eb;
-  font-size: 14px;
-  line-height: 36px;
-  text-align: center;
-  color: #ffffff;
-}
-.pg-bd .facial-section .container .learn-title {
-  height: 20px;
-  line-height: 20px;
-  font-size: 18px;
-  color: #222222;
-  margin-bottom: 20px;
-}
-.pg-bd .facial-section .container .learn-list {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 40px;
-}
-.pg-bd .facial-section .container .learn-list .learn-item {
-  width: 234px;
-  height: 270px;
-  background: #ffffff;
-  padding-bottom: 20px;
-}
-.pg-bd .facial-section .container .learn-list .learn-item .item-title {
-  width: 234px;
-  height: 128px;
-  background: url(../images/productbg1.png) no-repeat;
-  background-size: cover;
-  background-position: center;
-  line-height: 128px;
-  font-size: 18px;
-  color: #ffffff;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.pg-bd .facial-section .container .learn-list .learn-item .desc {
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 12px;
-  line-height: 18px;
-  color: #000000;
-  margin-bottom: 10px;
-}
-.pg-bd .facial-section .container .learn-list .learn-item .check-btn {
-  display: block;
-  width: 194px;
-  height: 40px;
-  border: 1px solid #007eed;
-  border-radius: 4px;
-  font-size: 15px;
-  line-height: 40px;
-  text-align: center;
-  color: #007eed;
-  margin: auto;
-}
-.pg-bd .facial-section .container .learn-list .picture-item .item-title {
-  background: url(../images/productbg2.png) no-repeat;
-}
-.pg-bd .facial-section .container .learn-list .card-item .item-title {
-  background: url(../images/productbg3.png) no-repeat;
-}
-.pg-bd .facial-section .container .learn-list .table-item .item-title {
-  background: url(../images/productbg4.png) no-repeat;
-}
-.pg-bd .facial-section .container .challenge-title {
-  height: 20px;
-  line-height: 20px;
-  font-size: 18px;
-  color: #222222;
-  margin-bottom: 20px;
-}
-.pg-bd .facial-section .container .challenge-list {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 60px;
-}
-.pg-bd .facial-section .container .challenge-list .item {
-  display: flex;
-  justify-content: space-between;
-  width: 490px;
-  height: 210px;
-  background: #ffffff;
-  padding: 20px;
-}
-.pg-bd .facial-section .container .challenge-list .item .content .task {
-  height: 20px;
-  line-height: 20px;
-  font-size: 14px;
-  color: #333333;
-  margin-bottom: 20px;
-}
-.pg-bd .facial-section .container .challenge-list .item .content .desc {
-  line-height: 20px;
-  font-size: 14px;
-  color: #666666;
-  margin-bottom: 30px;
-}
-.pg-bd .facial-section .container .challenge-list .item .content .learn-btn {
-  display: block;
-  width: 150px;
-  height: 40px;
-  background: #007eed;
-  border-radius: 4px;
-  font-size: 15px;
-  line-height: 40px;
-  color: #ffffff;
-  text-align: center;
-}
-.pg-bd .facial-section .container .challenge-list .item .image {
-  width: 166px;
-  height: 170px;
-}
-.pg-bd .facial-section .container .challenge-list .item .image img {
-  width: 100%;
-  height: 100%;
-}
 .pg-bd .picture-section {
   background: #f4f5f7;
-}
-.pg-bd .picture-section .container .sub-title {
-  position: relative;
-  height: 30px;
-  line-height: 30px;
-  font-size: 24px;
-  color: #222222;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.pg-bd .picture-section .container .sub-title:after {
-  position: absolute;
-  top: 38px;
-  left: 50%;
-  transform: translateX(-50%);
-  content: '';
-  width: 40px;
-  height: 2px;
-  background: #328cff;
-}
-.pg-bd .picture-section .container .title-desc {
-  height: 20px;
-  line-height: 20px;
-  font-size: 14px;
-  text-align: center;
-  color: #999999;
-  margin-bottom: 50px;
-}
-.pg-bd .picture-section .container .world-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 42px;
-}
-.pg-bd .picture-section .container .world-list .world-item {
-  display: flex;
-}
-.pg-bd .picture-section .container .world-list .world-item .image {
-  width: 234px;
-  height: 128px;
-  margin-right: 16px;
-}
-.pg-bd .picture-section .container .world-list .world-item .image img {
-  width: 100%;
-  height: 100%;
-}
-.pg-bd .picture-section .container .world-list .world-item .content {
-  width: 230px;
-}
-.pg-bd .picture-section .container .world-list .world-item .content .content-title {
-  height: 30px;
-  line-height: 30px;
-  font-size: 14px;
-  color: #333333;
-}
-.pg-bd .picture-section .container .world-list .world-item .content .desc {
-  line-height: 20px;
-  font-size: 12px;
-  color: #666666;
-  margin-bottom: 22px;
-}
-.pg-bd .picture-section .container .world-list .world-item .content .watch-btn {
-  display: block;
-  width: 110px;
-  height: 36px;
-  border-radius: 4px;
-  background: #0073eb;
-  font-size: 14px;
-  line-height: 36px;
-  text-align: center;
-  color: #ffffff;
-}
-.pg-bd .picture-section .container .learn-title {
-  height: 20px;
-  line-height: 20px;
-  font-size: 18px;
-  color: #222222;
-  margin-bottom: 20px;
-}
-.pg-bd .picture-section .container .learn-list {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 40px;
-}
-.pg-bd .picture-section .container .learn-list .learn-item {
-  width: 234px;
-  height: 270px;
-  background: #ffffff;
-  padding-bottom: 20px;
-}
-.pg-bd .picture-section .container .learn-list .learn-item .item-title {
-  width: 234px;
-  height: 128px;
-  background: url(../images/productbg1.png) no-repeat;
-  background-size: cover;
-  background-position: center;
-  line-height: 128px;
-  font-size: 18px;
-  color: #ffffff;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.pg-bd .picture-section .container .learn-list .learn-item .desc {
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 12px;
-  line-height: 18px;
-  color: #000000;
-  margin-bottom: 10px;
-}
-.pg-bd .picture-section .container .learn-list .learn-item .check-btn {
-  display: block;
-  width: 194px;
-  height: 40px;
-  border: 1px solid #007eed;
-  border-radius: 4px;
-  font-size: 15px;
-  line-height: 40px;
-  text-align: center;
-  color: #007eed;
-  margin: auto;
-}
-.pg-bd .picture-section .container .learn-list .picture-item .item-title {
-  background: url(../images/productbg2.png) no-repeat;
-}
-.pg-bd .picture-section .container .learn-list .card-item .item-title {
-  background: url(../images/productbg3.png) no-repeat;
-}
-.pg-bd .picture-section .container .learn-list .table-item .item-title {
-  background: url(../images/productbg4.png) no-repeat;
-}
-.pg-bd .picture-section .container .challenge-title {
-  height: 20px;
-  line-height: 20px;
-  font-size: 18px;
-  color: #222222;
-  margin-bottom: 20px;
-}
-.pg-bd .picture-section .container .challenge-list {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 20px;
-}
-.pg-bd .picture-section .container .challenge-list .item {
-  display: flex;
-  justify-content: space-between;
-  width: 490px;
-  height: 210px;
-  background: #ffffff;
-  padding: 20px;
-}
-.pg-bd .picture-section .container .challenge-list .item .content .task {
-  height: 20px;
-  line-height: 20px;
-  font-size: 14px;
-  color: #333333;
-  margin-bottom: 20px;
-}
-.pg-bd .picture-section .container .challenge-list .item .content .desc {
-  line-height: 20px;
-  font-size: 14px;
-  color: #666666;
-  margin-bottom: 30px;
-}
-.pg-bd .picture-section .container .challenge-list .item .content .learn-btn {
-  display: block;
-  width: 150px;
-  height: 40px;
-  background: #007eed;
-  border-radius: 4px;
-  font-size: 15px;
-  line-height: 40px;
-  color: #ffffff;
-  text-align: center;
-}
-.pg-bd .picture-section .container .challenge-list .item .image {
-  width: 166px;
-  height: 170px;
-}
-.pg-bd .picture-section .container .challenge-list .item .image img {
-  width: 100%;
-  height: 100%;
 }
 .pg-bd .invatation-section {
   background: #f4f5f7;
