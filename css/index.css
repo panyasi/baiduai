@@ -1,0 +1,1270 @@
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PingFangSC-Regular', 'STHeiti Light', 'helvetica neue', 'hiragino sans gb', arial, 'microsoft yahei ui', 'microsoft yahei', simsun, sans-serif;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  font-weight: 600;
+}
+.pg-hd {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.pg-hd .container {
+  display: flex;
+  justify-content: space-between;
+}
+.pg-hd .container .company {
+  width: 100px;
+  height: 50px;
+  margin-right: 70px;
+}
+.pg-hd .container .company img {
+  width: 100%;
+  height: 100%;
+}
+.pg-hd .container .nav {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+.pg-hd .container .nav li {
+  list-style: none;
+  height: 14px;
+  margin-right: 30px;
+  line-height: 14px;
+  font-size: 14px;
+  color: #747474;
+}
+.pg-hd .container .form {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.pg-hd .container .form input {
+  width: 190px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #bebebe;
+}
+.pg-hd .container .form input::-webkit-input-placeholder {
+  color: #bebebe;
+}
+.pg-hd .container .form .search {
+  width: 40px;
+  height: 30px;
+  outline: none;
+  border-top: 1px solid #bebebe;
+  border-bottom: 1px solid #bebebe;
+  border-right: 1px solid #bebebe;
+}
+.pg-hd .container .icon-list {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+.pg-hd .container .icon-list .icon-1 {
+  width: 16px;
+  height: 16px;
+  margin-top: 6px;
+  margin-right: 20px;
+}
+.pg-hd .container .icon-list .icon-1 img {
+  width: 100%;
+  height: 100%;
+}
+.pg-hd .container .icon-list .icon-2 {
+  width: 20px;
+  height: 22px;
+  margin-right: 20px;
+}
+.pg-hd .container .icon-list .icon-2 img {
+  width: 100%;
+  height: 100%;
+}
+.pg-hd .container .icon-list .icon-3 {
+  width: 30px;
+  height: 30px;
+}
+.pg-hd .container .icon-list .icon-3 img {
+  width: 100%;
+  height: 100%;
+}
+.pg-bd .join-section {
+  background: #020309;
+}
+.pg-bd .join-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.pg-bd .join-section .container .baidulogo {
+  width: 160px;
+  height: 30px;
+}
+.pg-bd .join-section .container .baidulogo img {
+  width: 100%;
+  height: 100%;
+}
+.pg-bd .join-section .container .btn .text-btn {
+  display: inline-block;
+  width: 84px;
+  height: 30px;
+  background: #0073eb;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  color: #ffffff;
+}
+.pg-bd .join-section .container .btn .facail-btn {
+  display: inline-block;
+  width: 84px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  color: #ffffff;
+}
+.pg-bd .join-section .container .btn .picture-btn {
+  display: inline-block;
+  width: 84px;
+  height: 30px;
+  background: #272727;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  color: #0073eb;
+}
+.pg-bd .join-section .container .btn .joinus-btn {
+  display: inline-block;
+  width: 74px;
+  height: 30px;
+  text-align: right;
+  line-height: 30px;
+  font-size: 16px;
+  color: #ffffff;
+}
+.pg-bd .banner-section {
+  background: url(../images/bannerbg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 132px;
+}
+.pg-bd .banner-section .container .banner-title {
+  width: 636px;
+  height: 38px;
+  margin: 0 auto;
+}
+.pg-bd .banner-section .container .banner-title img {
+  width: 100%;
+  height: 100%;
+}
+.pg-bd .about-section {
+  background: #f4f5f7;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.pg-bd .about-section .container {
+  position: relative;
+}
+.pg-bd .about-section .container .wx-item {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 230px;
+  height: 270px;
+  background: url(../images/bluebg.png) no-repeat;
+  background-size: 230px 270px;
+  background-position: center;
+  padding-top: 50px;
+}
+.pg-bd .about-section .container .wx-item .item-title {
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.pg-bd .about-section .container .wx-item .apply-btn {
+  display: block;
+  width: 170px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  color: #ffffff;
+}
+.pg-bd .about-section .container .about-content {
+  padding-left: 270px;
+}
+.pg-bd .about-section .container .about-content .content-title {
+  position: relative;
+  height: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #222222;
+  margin-bottom: 30px;
+}
+.pg-bd .about-section .container .about-content .content-title:after {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  content: '';
+  width: 40px;
+  height: 2px;
+  background: #dbdcde;
+}
+.pg-bd .about-section .container .about-content .desc {
+  line-height: 18px;
+  font-size: 12px;
+  color: #333333;
+  margin-bottom: 18px;
+}
+.pg-bd .character-section {
+  background: #f4f5f7;
+}
+.pg-bd .character-section .container .sub-title {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  font-size: 24px;
+  color: #222222;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pg-bd .character-section .container .sub-title:after {
+  position: absolute;
+  top: 38px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: '';
+  width: 40px;
+  height: 2px;
+  background: #328cff;
+}
+.pg-bd .character-section .container .title-desc {
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: #999999;
+  margin-bottom: 50px;
+}
+.pg-bd .character-section .container .world-title {
+  height: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.pg-bd .character-section .container .world-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 42px;
+}
+.pg-bd .character-section .container .world-list .world-item {
+  display: flex;
+}
+.pg-bd .character-section .container .world-list .world-item .image {
+  width: 234px;
+  height: 128px;
+  margin-right: 16px;
+}
+.pg-bd .character-section .container .world-list .world-item .image img {
+  width: 100%;
+  height: 100%;
+}
+.pg-bd .character-section .container .world-list .world-item .content {
+  width: 230px;
+}
+.pg-bd .character-section .container .world-list .world-item .content .content-title {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #333333;
+}
+.pg-bd .character-section .container .world-list .world-item .content .desc {
+  line-height: 20px;
+  font-size: 12px;
+  color: #666666;
+  margin-bottom: 22px;
+}
+.pg-bd .character-section .container .world-list .world-item .content .watch-btn {
+  display: block;
+  width: 110px;
+  height: 36px;
+  border-radius: 4px;
+  background: #0073eb;
+  font-size: 14px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+.pg-bd .character-section .container .learn-title {
+  height: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.pg-bd .character-section .container .learn-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.pg-bd .character-section .container .learn-list .learn-item {
+  width: 234px;
+  height: 270px;
+  background: #ffffff;
+  padding-bottom: 20px;
+}
+.pg-bd .character-section .container .learn-list .learn-item .item-title {
+  width: 234px;
+  height: 128px;
+  background: url(../images/productbg1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  line-height: 128px;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pg-bd .character-section .container .learn-list .learn-item .desc {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.pg-bd .character-section .container .learn-list .learn-item .check-btn {
+  display: block;
+  width: 194px;
+  height: 40px;
+  border: 1px solid #007eed;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+  color: #007eed;
+  margin: auto;
+}
+.pg-bd .character-section .container .learn-list .picture-item .item-title {
+  background: url(../images/productbg2.png) no-repeat;
+}
+.pg-bd .character-section .container .learn-list .card-item .item-title {
+  background: url(../images/productbg3.png) no-repeat;
+}
+.pg-bd .character-section .container .learn-list .table-item .item-title {
+  background: url(../images/productbg4.png) no-repeat;
+}
+.pg-bd .character-section .container .challenge-title {
+  height: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.pg-bd .character-section .container .challenge-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.pg-bd .character-section .container .challenge-list .item {
+  display: flex;
+  justify-content: space-between;
+  width: 490px;
+  height: 210px;
+  background: #ffffff;
+  padding: 20px;
+}
+.pg-bd .character-section .container .challenge-list .item .content .task {
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.pg-bd .character-section .container .challenge-list .item .content .desc {
+  line-height: 20px;
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 30px;
+}
+.pg-bd .character-section .container .challenge-list .item .content .learn-btn {
+  display: block;
+  width: 150px;
+  height: 40px;
+  background: #007eed;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: center;
+}
+.pg-bd .character-section .container .challenge-list .item .image {
+  width: 166px;
+  height: 170px;
+}
+.pg-bd .character-section .container .challenge-list .item .image img {
+  width: 100%;
+  height: 100%;
+}
+.pg-bd .facial-section {
+  background: #f4f5f7;
+}
+.pg-bd .facial-section .container .sub-title {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  font-size: 24px;
+  color: #222222;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pg-bd .facial-section .container .sub-title:after {
+  position: absolute;
+  top: 38px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: '';
+  width: 40px;
+  height: 2px;
+  background: #328cff;
+}
+.pg-bd .facial-section .container .title-desc {
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: #999999;
+  margin-bottom: 50px;
+}
+.pg-bd .facial-section .container .world-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 42px;
+}
+.pg-bd .facial-section .container .world-list .world-item {
+  display: flex;
+}
+.pg-bd .facial-section .container .world-list .world-item .image {
+  width: 234px;
+  height: 128px;
+  margin-right: 16px;
+}
+.pg-bd .facial-section .container .world-list .world-item .image img {
+  width: 100%;
+  height: 100%;
+}
+.pg-bd .facial-section .container .world-list .world-item .content {
+  width: 230px;
+}
+.pg-bd .facial-section .container .world-list .world-item .content .content-title {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #333333;
+}
+.pg-bd .facial-section .container .world-list .world-item .content .desc {
+  line-height: 20px;
+  font-size: 12px;
+  color: #666666;
+  margin-bottom: 22px;
+}
+.pg-bd .facial-section .container .world-list .world-item .content .watch-btn {
+  display: block;
+  width: 110px;
+  height: 36px;
+  border-radius: 4px;
+  background: #0073eb;
+  font-size: 14px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+.pg-bd .facial-section .container .learn-title {
+  height: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.pg-bd .facial-section .container .learn-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.pg-bd .facial-section .container .learn-list .learn-item {
+  width: 234px;
+  height: 270px;
+  background: #ffffff;
+  padding-bottom: 20px;
+}
+.pg-bd .facial-section .container .learn-list .learn-item .item-title {
+  width: 234px;
+  height: 128px;
+  background: url(../images/productbg1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  line-height: 128px;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pg-bd .facial-section .container .learn-list .learn-item .desc {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.pg-bd .facial-section .container .learn-list .learn-item .check-btn {
+  display: block;
+  width: 194px;
+  height: 40px;
+  border: 1px solid #007eed;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+  color: #007eed;
+  margin: auto;
+}
+.pg-bd .facial-section .container .learn-list .picture-item .item-title {
+  background: url(../images/productbg2.png) no-repeat;
+}
+.pg-bd .facial-section .container .learn-list .card-item .item-title {
+  background: url(../images/productbg3.png) no-repeat;
+}
+.pg-bd .facial-section .container .learn-list .table-item .item-title {
+  background: url(../images/productbg4.png) no-repeat;
+}
+.pg-bd .facial-section .container .challenge-title {
+  height: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.pg-bd .facial-section .container .challenge-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.pg-bd .facial-section .container .challenge-list .item {
+  display: flex;
+  justify-content: space-between;
+  width: 490px;
+  height: 210px;
+  background: #ffffff;
+  padding: 20px;
+}
+.pg-bd .facial-section .container .challenge-list .item .content .task {
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.pg-bd .facial-section .container .challenge-list .item .content .desc {
+  line-height: 20px;
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 30px;
+}
+.pg-bd .facial-section .container .challenge-list .item .content .learn-btn {
+  display: block;
+  width: 150px;
+  height: 40px;
+  background: #007eed;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: center;
+}
+.pg-bd .facial-section .container .challenge-list .item .image {
+  width: 166px;
+  height: 170px;
+}
+.pg-bd .facial-section .container .challenge-list .item .image img {
+  width: 100%;
+  height: 100%;
+}
+.pg-bd .picture-section {
+  background: #f4f5f7;
+}
+.pg-bd .picture-section .container .sub-title {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  font-size: 24px;
+  color: #222222;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pg-bd .picture-section .container .sub-title:after {
+  position: absolute;
+  top: 38px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: '';
+  width: 40px;
+  height: 2px;
+  background: #328cff;
+}
+.pg-bd .picture-section .container .title-desc {
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: #999999;
+  margin-bottom: 50px;
+}
+.pg-bd .picture-section .container .world-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 42px;
+}
+.pg-bd .picture-section .container .world-list .world-item {
+  display: flex;
+}
+.pg-bd .picture-section .container .world-list .world-item .image {
+  width: 234px;
+  height: 128px;
+  margin-right: 16px;
+}
+.pg-bd .picture-section .container .world-list .world-item .image img {
+  width: 100%;
+  height: 100%;
+}
+.pg-bd .picture-section .container .world-list .world-item .content {
+  width: 230px;
+}
+.pg-bd .picture-section .container .world-list .world-item .content .content-title {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #333333;
+}
+.pg-bd .picture-section .container .world-list .world-item .content .desc {
+  line-height: 20px;
+  font-size: 12px;
+  color: #666666;
+  margin-bottom: 22px;
+}
+.pg-bd .picture-section .container .world-list .world-item .content .watch-btn {
+  display: block;
+  width: 110px;
+  height: 36px;
+  border-radius: 4px;
+  background: #0073eb;
+  font-size: 14px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+.pg-bd .picture-section .container .learn-title {
+  height: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.pg-bd .picture-section .container .learn-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.pg-bd .picture-section .container .learn-list .learn-item {
+  width: 234px;
+  height: 270px;
+  background: #ffffff;
+  padding-bottom: 20px;
+}
+.pg-bd .picture-section .container .learn-list .learn-item .item-title {
+  width: 234px;
+  height: 128px;
+  background: url(../images/productbg1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  line-height: 128px;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pg-bd .picture-section .container .learn-list .learn-item .desc {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.pg-bd .picture-section .container .learn-list .learn-item .check-btn {
+  display: block;
+  width: 194px;
+  height: 40px;
+  border: 1px solid #007eed;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+  color: #007eed;
+  margin: auto;
+}
+.pg-bd .picture-section .container .learn-list .picture-item .item-title {
+  background: url(../images/productbg2.png) no-repeat;
+}
+.pg-bd .picture-section .container .learn-list .card-item .item-title {
+  background: url(../images/productbg3.png) no-repeat;
+}
+.pg-bd .picture-section .container .learn-list .table-item .item-title {
+  background: url(../images/productbg4.png) no-repeat;
+}
+.pg-bd .picture-section .container .challenge-title {
+  height: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.pg-bd .picture-section .container .challenge-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.pg-bd .picture-section .container .challenge-list .item {
+  display: flex;
+  justify-content: space-between;
+  width: 490px;
+  height: 210px;
+  background: #ffffff;
+  padding: 20px;
+}
+.pg-bd .picture-section .container .challenge-list .item .content .task {
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.pg-bd .picture-section .container .challenge-list .item .content .desc {
+  line-height: 20px;
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 30px;
+}
+.pg-bd .picture-section .container .challenge-list .item .content .learn-btn {
+  display: block;
+  width: 150px;
+  height: 40px;
+  background: #007eed;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: center;
+}
+.pg-bd .picture-section .container .challenge-list .item .image {
+  width: 166px;
+  height: 170px;
+}
+.pg-bd .picture-section .container .challenge-list .item .image img {
+  width: 100%;
+  height: 100%;
+}
+.pg-bd .invatation-section {
+  background: #f4f5f7;
+}
+.pg-bd .invatation-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  background: url(../images/invitationbg.jpg) no-repeat;
+  background-size: 1000px 120px;
+  background-position: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.pg-bd .invatation-section .container .company {
+  position: relative;
+  width: 206px;
+  height: 34px;
+  margin-right: 50px;
+}
+.pg-bd .invatation-section .container .company img {
+  width: 100%;
+  height: 100%;
+}
+.pg-bd .invatation-section .container .company:after {
+  position: absolute;
+  left: 236px;
+  top: 0;
+  content: '';
+  width: 2px;
+  height: 40px;
+  background: #4888dd;
+}
+.pg-bd .invatation-section .container .desc {
+  width: 510px;
+  line-height: 20px;
+  font-size: 13px;
+  color: #ffffff;
+  text-align: justify;
+}
+.pg-bd .invatation-section .container .apply-btn {
+  display: block;
+  width: 110px;
+  height: 40px;
+  background: #fff000;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  color: #333333;
+}
+.pg-bd .download-section {
+  background: #f4f5f7;
+  padding-top: 60px;
+}
+.pg-bd .download-section .container .sub-title {
+  height: 30px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #222222;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.pg-bd .download-section .container .download-list {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  width: 1000px;
+  height: 210px;
+  padding: 30px;
+}
+.pg-bd .download-section .container .download-list .item {
+  width: 440px;
+}
+.pg-bd .download-section .container .download-list .item .item-title {
+  height: 20px;
+  line-height: 20px;
+  font-size: 16px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pg-bd .download-section .container .download-list .item .desc {
+  line-height: 22px;
+  font-size: 13px;
+  color: #666666;
+  margin-bottom: 24px;
+}
+.pg-bd .download-section .container .download-list .item .learn-btn {
+  display: block;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #0073eb;
+  text-align: center;
+}
+.pg-bd .example-section {
+  background: #f4f5f7;
+  padding-top: 60px;
+}
+.pg-bd .example-section .container .sub-title {
+  height: 30px;
+  font-size: 24px;
+  color: #222222;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.pg-bd .example-section .container .example-list {
+  display: flex;
+  justify-content: space-between;
+}
+.pg-bd .example-section .container .example-list .item a {
+  display: block;
+  width: 320px;
+  height: 160px;
+}
+.pg-bd .example-section .container .example-list .item a img {
+  width: 100%;
+  height: 100%;
+}
+.pg-bd .other-section {
+  background: #f4f5f7;
+  padding-top: 60px;
+}
+.pg-bd .other-section .container .sub-title {
+  height: 30px;
+  line-height: 30px;
+  font-size: 24px;
+  color: #222222;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.pg-bd .other-section .container .other-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 470px;
+  background: #ffffff;
+  padding: 60px 130px;
+}
+.pg-bd .other-section .container .other-list .item .image {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+}
+.pg-bd .other-section .container .other-list .item .image img {
+  width: 100%;
+  height: 100%;
+}
+.pg-bd .other-section .container .other-list .item .desc {
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  color: #333333;
+  text-align: center;
+  margin-top: 30px;
+}
+.pg-ft {
+  background: #f4f5f7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.pg-ft .container .copyright {
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #5382b3;
+  text-align: center;
+}
